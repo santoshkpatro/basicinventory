@@ -1,0 +1,27 @@
+{% extends 'dashboard.html' %}
+
+{% block body %}
+<h3>Add Warehouse</h3>
+<form action="{% url 'warehouse_add' %}" method="post">
+    {% csrf_token %}
+    <div class="form-group">
+        <label class="form-label">Name</label>
+        <input type="text" name="name" class="form-control">
+    </div>
+    <div class="form-group">
+        <label class="form-label">Capacity</label>
+        <input type="number" name="capacity" class="form-control">
+    </div>
+    <div class="form-group">
+        <label class="form-label">Description</label>
+        <textarea name="description" id="description" cols="30" rows="5" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+        <label class="form-label">Location</label>
+        <textarea name="location" id="location" cols="30" rows="5" class="form-control"></textarea>
+    </div>
+    <div class="d-grid gap-2 my-2">
+        <button class="btn btn-secondary" type="submit">Add</button>
+    </div>
+</form>
+{% endblock %}

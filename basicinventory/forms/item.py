@@ -1,9 +1,8 @@
-from re import I
 from django import forms
 from basicinventory.models.item import Item
 
 
-class AddItemForm(forms.ModelForm):
+class ItemForm(forms.ModelForm):
     warehouse_id = forms.UUIDField(required=False)
 
     class Meta:

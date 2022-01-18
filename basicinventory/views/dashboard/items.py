@@ -1,4 +1,3 @@
-import imp
 import uuid
 from django.shortcuts import render, redirect
 from django.urls import reverse
@@ -6,16 +5,12 @@ from django.core.paginator import Paginator
 from django.conf import settings
 from basicinventory.models.item import Item
 from basicinventory.models.warehouse import Warehouse
-from basicinventory.forms.item import AddItemForm
-
-
-def overview(request):
-    return render(request, 'dashboard/overview.html', {'url_name': 'overview'})
+from basicinventory.forms.item import ItemForm
 
 
 def item_add(request):
     if request.method == 'POST':
-        form = AddItemForm(request.POST)
+        form = ItemForm(request.POST)
         if form.is_valid():
             warehouse = None
             data = form.cleaned_data
@@ -36,7 +31,7 @@ def item_add(request):
             return redirect('item_add')
 
     warehouses = Warehouse.objects.all()
-    form = AddItemForm()
+    form = ItemForm()
 
     context = {
         'warehouses': warehouses,
@@ -81,7 +76,7 @@ def item_edit(request, item_id):
         item = Item.objects.get(pk=item_id)
 
         if request.method == 'POST':
-            form = AddItemForm(request.POST, instance=item)
+            form = ItemForm(request.POST, instance=item)
             if form.is_valid():
                 warehouse = None
                 data = form.cleaned_data

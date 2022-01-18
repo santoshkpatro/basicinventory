@@ -6,7 +6,8 @@
             List items
         </a>
         <a class="nav-link {% if url_name == 'item_add' %} active {% endif %}" href="{% url 'item_add' %}">Add items</a>
-        <a class="nav-link" href="#">List warehouses</a>
+        <a class="nav-link {% if url_name == 'warehouse_list' %} active {% endif %}"
+            href="{% url 'warehouse_list' %}">List warehouses</a>
         <a class="nav-link" href="#">Add warehouses</a>
         <a class="nav-link" href="#">Staffs</a>
     </nav>
