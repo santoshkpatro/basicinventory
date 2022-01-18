@@ -3,5 +3,6 @@ autopep8==1.6.0
 backports.zoneinfo==0.2.1
 Django==4.0.1
 pycodestyle==2.8.0
+shortuuid==1.0.8
 sqlparse==0.4.2
 toml==0.10.2

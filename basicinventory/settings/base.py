@@ -1,3 +1,7 @@
+import imp
+
+
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -95,3 +99,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Custom user model
 AUTH_USER_MODEL = 'basicinventory.User'
+
+# Pagination
+MAX_PAGE_SIZE = os.environ.get('MAX_PAGE_SIZE', 25)
