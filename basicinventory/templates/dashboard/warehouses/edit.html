@@ -2,7 +2,7 @@
 
 {% block body %}
 <h2 class="h2 my-4">Warehouse Edit</h2>
-<form action="{% url 'warehouse_edit' warehouse_id=warehouse.id %}" method="post">
+<form action="{% url 'warehouse_edit' warehouse_id=warehouse.id %}?redirect_url={{ redirect_url }}" method="post">
     {% csrf_token %}
     <div class="form-check">
         {% if warehouse.is_operational %}

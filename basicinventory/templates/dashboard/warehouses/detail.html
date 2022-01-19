@@ -1,8 +1,10 @@
 {% extends 'dashboard.html' %}
 
 {% block body %}
-<h3 class="my-3 h2">{{ warehouse.name }}</h3>
-<ul class="list-group">
+<h3 class="my-3 h2 d-inline me-3">{{ warehouse.name }}</h3>
+<a href="{% url 'warehouse_edit' warehouse_id=warehouse.id %}?redirect_url={% url 'warehouse_detail' warehouse_id=warehouse.id %}"
+    class="btn btn-sm btn-primary d-inline mx-3">Edit these warehouse</a>
+<ul class="list-group mt-3">
     <li class="list-group-item">Is Operational - {{warehouse.is_operational }} </li>
     <li class="list-group-item">Capacity - {{ warehouse.capacity }} </li>
     <li class="list-group-item">Location - {{ warehouse.location }} </li>

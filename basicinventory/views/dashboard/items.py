@@ -1,4 +1,3 @@
-import uuid
 from django.shortcuts import render, redirect
 from django.db import IntegrityError
 from django.urls import reverse
@@ -52,7 +51,6 @@ def item_add(request):
 
 def item_list(request):
     items = Item.objects.all().order_by('-created_at')
-    highlight_item_id = request.GET.get('highlight', None)
 
     # pagination
     page_size = settings.MAX_PAGE_SIZE
@@ -63,7 +61,6 @@ def item_list(request):
     context = {
         'page_obj': page_obj,
         'url_name': 'item_list',
-        'highlight_item_id': uuid.UUID(highlight_item_id) if highlight_item_id else None
     }
     return render(request, 'dashboard/items/list.html', context)
 
@@ -108,18 +105,17 @@ def item_edit(request, item_id):
                     reverse('item_list')
                 )
 
-                return redirect(redirect_url + f'&highlight={item.id}')
+                return redirect(redirect_url)
             else:
                 messages.error(request, 'Unable to submit form')
                 return redirect('item_edit', item_id=item_id)
 
-        redirect_url = request.GET.get('redirect_url', None)
         warehouses = Warehouse.operational_objects.all()
 
         context = {
             'item': item,
             'warehouses': warehouses,
-            'redirect_url': redirect_url
+            'redirect_url': request.GET.get('redirect_url', reverse('item_list'))
         }
         return render(request, 'dashboard/items/edit.html', context)
     except Item.DoesNotExist:

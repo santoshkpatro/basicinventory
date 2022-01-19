@@ -2,6 +2,9 @@
 
 {% block body %}
 <h2 class="h2 my-4">Warehouse List</h2>
+<div class="d-grid gap-2">
+    <a href="{% url 'warehouse_add' %}" class="btn btn-primary">Add warehouse</a>
+</div>
 <table class="table">
     <thead>
         <tr>
@@ -12,7 +15,7 @@
             <th scope="col">Action</th>
         </tr>
     </thead>
-    <tbody>
+    <tbody class="bg-light">
         {% for warehouse in warehouses %}
         <tr>
             <th>

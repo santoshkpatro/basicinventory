@@ -2,6 +2,9 @@
 
 {% block body %}
 <h2 class="h2 my-4">Items List</h2>
+<div class="d-grid gap-2">
+    <a href="{% url 'item_add' %}" class="btn btn-primary">Add Item</a>
+</div>
 <table class="table">
     <thead>
         <tr>
@@ -16,7 +19,7 @@
     </thead>
     <tbody>
         {% for item in page_obj %}
-        <tr class="{% if highlight_item_id == item.id %}bg-light{% endif %}">
+        <tr class="bg-light">
             <th scope="row">
                 <a class="text-decoration-none" href="{% url 'item_detail' item_id=item.id %}">
                     {{ item.code }}
