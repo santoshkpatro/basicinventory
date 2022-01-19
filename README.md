@@ -20,6 +20,12 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
+## Migrate the DB changes
+
+```bash
+python3 manage.py makemigrations
+```
+
 ## To start the server
 
 ```bash
