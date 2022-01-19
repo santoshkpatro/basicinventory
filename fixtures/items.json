@@ -1,0 +1,1602 @@
+[
+  {
+    "model": "basicinventory.item",
+    "pk": "02a1a6f6-bbbd-4e33-ae0f-d64fb5ef8c99",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.623Z",
+      "updated_at": "2022-01-19T19:14:31.623Z",
+      "warehouse": "466fcaad-fa1d-4b8c-acc1-6aad3aa8df84",
+      "code": "FF7KS",
+      "name": "capromab pendetide",
+      "description": "a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo",
+      "quantity": 40,
+      "price": "15.50",
+      "supplier_details": "nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "042f5c3f-8f48-4933-af67-ddd2e54e4cc9",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.870Z",
+      "updated_at": "2022-01-19T19:14:31.870Z",
+      "warehouse": "906843b9-1010-4de7-91db-30be7ee4e030",
+      "code": "PRQNX",
+      "name": "hydroxyzine pamoate",
+      "description": "nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales",
+      "quantity": 71,
+      "price": "64.32",
+      "supplier_details": "nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "069e71d6-e690-486f-85f0-2ac7cbefa08d",
+    "fields": {
+      "created_at": "2022-01-19T19:14:32.013Z",
+      "updated_at": "2022-01-19T19:14:32.014Z",
+      "warehouse": "356f7a0d-9efc-494a-a708-ceeb2b6b66a3",
+      "code": "657TR",
+      "name": "not applicable",
+      "description": "sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget",
+      "quantity": 18,
+      "price": "89.55",
+      "supplier_details": "sapien a libero nam dui proin leo odio porttitor id consequat",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "09348e92-1a86-4ef2-83eb-473457117ffc",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.663Z",
+      "updated_at": "2022-01-19T19:14:31.663Z",
+      "warehouse": "0d89a629-2968-4964-ba73-5f74662965fb",
+      "code": "WAH5H",
+      "name": "Diphenhydramine HCl",
+      "description": "in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula",
+      "quantity": 79,
+      "price": "12.39",
+      "supplier_details": "a libero nam dui proin leo odio porttitor id consequat",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "0ae1b39a-25ee-45e9-8042-1239e00a9271",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.617Z",
+      "updated_at": "2022-01-19T19:14:31.617Z",
+      "warehouse": "356f7a0d-9efc-494a-a708-ceeb2b6b66a3",
+      "code": "8R7DI",
+      "name": "Sucralfate",
+      "description": "tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu",
+      "quantity": 195,
+      "price": "31.69",
+      "supplier_details": "amet sem fusce consequat nulla nisl nunc nisl duis bibendum",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "0b0b6666-8375-455c-a7f3-b826a3fb1713",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.808Z",
+      "updated_at": "2022-01-19T19:14:31.808Z",
+      "warehouse": "356f7a0d-9efc-494a-a708-ceeb2b6b66a3",
+      "code": "EIGW3",
+      "name": "Antihemophilic Factor/von Willebrand Factor Complex (Human)",
+      "description": "sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien",
+      "quantity": 67,
+      "price": "31.41",
+      "supplier_details": "eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "0ba2471c-a118-46c7-9d57-673d16315aa6",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.908Z",
+      "updated_at": "2022-01-19T19:14:31.908Z",
+      "warehouse": "0d89a629-2968-4964-ba73-5f74662965fb",
+      "code": "XKTQJ",
+      "name": "Duloxetine",
+      "description": "ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna",
+      "quantity": 173,
+      "price": "88.35",
+      "supplier_details": "amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "0fa86e1a-d183-4b3d-95d0-9579347139f7",
+    "fields": {
+      "created_at": "2022-01-19T19:14:32.007Z",
+      "updated_at": "2022-01-19T19:14:32.007Z",
+      "warehouse": "aecc33d4-fe3c-4ee6-8350-888a8b4c308d",
+      "code": "9QZWH",
+      "name": "Venlafaxine Hydrochloride",
+      "description": "sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate",
+      "quantity": 167,
+      "price": "10.26",
+      "supplier_details": "convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "100fee99-3f9f-4b3c-838d-172acb73c4ee",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.968Z",
+      "updated_at": "2022-01-19T19:14:31.968Z",
+      "warehouse": "79f3bc9d-d3d2-4353-aaf7-18ecb54de243",
+      "code": "GXQYC",
+      "name": "Triclosan",
+      "description": "rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed",
+      "quantity": 85,
+      "price": "43.36",
+      "supplier_details": "pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "107adc82-f35a-4755-a2ec-62562f8ea2db",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.846Z",
+      "updated_at": "2022-01-19T19:14:31.847Z",
+      "warehouse": "9a386188-4d56-44f7-a627-6e99c8bb8e8f",
+      "code": "QTVSH",
+      "name": "ALGLUCOSIDASE ALFA",
+      "description": "quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer",
+      "quantity": 13,
+      "price": "45.64",
+      "supplier_details": "non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "1207100c-2711-400d-b2a8-51f9a5540b8d",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.571Z",
+      "updated_at": "2022-01-19T19:14:31.571Z",
+      "warehouse": "d135427e-26dc-42b3-9505-c0b310623ab8",
+      "code": "AH3JU",
+      "name": "Docusate sodium and Sennosides",
+      "description": "in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt",
+      "quantity": 39,
+      "price": "20.06",
+      "supplier_details": "consequat metus sapien ut nunc vestibulum ante ipsum primis in",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "12902d81-a2e5-463f-9906-defa767206d9",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.875Z",
+      "updated_at": "2022-01-19T19:14:31.875Z",
+      "warehouse": "79f3bc9d-d3d2-4353-aaf7-18ecb54de243",
+      "code": "WMFE8",
+      "name": "tretinoin",
+      "description": "integer aliquet massa id lobortis convallis tortor risus dapibus augue",
+      "quantity": 152,
+      "price": "63.05",
+      "supplier_details": "in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "158c2f42-f66a-4dd0-82f6-5c5be4409158",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.633Z",
+      "updated_at": "2022-01-19T19:14:31.633Z",
+      "warehouse": "39d9cac9-9f87-4985-9417-5c26ca3d6ae5",
+      "code": "G6E9M",
+      "name": "One Seed Juniper",
+      "description": "facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum",
+      "quantity": 82,
+      "price": "28.79",
+      "supplier_details": "erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "18860b9a-053d-472e-90dc-fa4d5dbad053",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.595Z",
+      "updated_at": "2022-01-19T19:14:31.595Z",
+      "warehouse": "356f7a0d-9efc-494a-a708-ceeb2b6b66a3",
+      "code": "YAWUB",
+      "name": "Stibium 20",
+      "description": "eros viverra eget congue eget semper rutrum nulla nunc purus phasellus",
+      "quantity": 190,
+      "price": "27.12",
+      "supplier_details": "integer non velit donec diam neque vestibulum eget vulputate ut",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "188eedd9-65d2-4d54-849f-3c41689ba51e",
+    "fields": {
+      "created_at": "2022-01-19T19:14:32.031Z",
+      "updated_at": "2022-01-19T19:14:32.031Z",
+      "warehouse": "906843b9-1010-4de7-91db-30be7ee4e030",
+      "code": "PMVGX",
+      "name": "Nitroglycerin Sustained-release capsules",
+      "description": "imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed",
+      "quantity": 32,
+      "price": "69.21",
+      "supplier_details": "in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "19e5ed7d-589d-4c17-ba31-3794661cd9cb",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.638Z",
+      "updated_at": "2022-01-19T19:14:31.638Z",
+      "warehouse": "d135427e-26dc-42b3-9505-c0b310623ab8",
+      "code": "LMU82",
+      "name": "valsartan and hydrochlorothiazide",
+      "description": "ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra",
+      "quantity": 13,
+      "price": "38.99",
+      "supplier_details": "ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "19f8d5d3-b3e8-4d9d-bdca-d9b610493f63",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.765Z",
+      "updated_at": "2022-01-19T19:14:31.765Z",
+      "warehouse": "73f130e4-8d8e-436f-81f0-787810edb593",
+      "code": "93YER",
+      "name": "Vasopressin",
+      "description": "vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur",
+      "quantity": 111,
+      "price": "86.52",
+      "supplier_details": "vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "1b1bc8e2-41e6-4d3f-80b4-716c4bb0d394",
+    "fields": {
+      "created_at": "2022-01-19T19:14:32.001Z",
+      "updated_at": "2022-01-19T19:14:32.001Z",
+      "warehouse": "356f7a0d-9efc-494a-a708-ceeb2b6b66a3",
+      "code": "FUYHN",
+      "name": "valsartan",
+      "description": "sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel",
+      "quantity": 200,
+      "price": "74.22",
+      "supplier_details": "at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "1c2a4b0c-3921-4836-a3e6-a9b141cdf709",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.802Z",
+      "updated_at": "2022-01-19T19:14:31.802Z",
+      "warehouse": "906843b9-1010-4de7-91db-30be7ee4e030",
+      "code": "LJ4FA",
+      "name": "Octinoxate and Oxybenzone",
+      "description": "vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero",
+      "quantity": 148,
+      "price": "72.78",
+      "supplier_details": "habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "1d4c0ee4-60a9-4033-b9f0-331fed606821",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.585Z",
+      "updated_at": "2022-01-19T19:14:31.585Z",
+      "warehouse": "9a386188-4d56-44f7-a627-6e99c8bb8e8f",
+      "code": "BNG5F",
+      "name": "NAJA NAJA VENOM",
+      "description": "habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi",
+      "quantity": 106,
+      "price": "80.45",
+      "supplier_details": "fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "1ee351d1-0949-48cd-97a0-aa9251e51e26",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.560Z",
+      "updated_at": "2022-01-19T19:14:31.560Z",
+      "warehouse": "9a386188-4d56-44f7-a627-6e99c8bb8e8f",
+      "code": "9UKXE",
+      "name": "Alcohol",
+      "description": "in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed",
+      "quantity": 196,
+      "price": "60.90",
+      "supplier_details": "venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "1ef3973e-eeb8-4777-8485-637defa5b17d",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.891Z",
+      "updated_at": "2022-01-19T19:14:31.891Z",
+      "warehouse": "9a386188-4d56-44f7-a627-6e99c8bb8e8f",
+      "code": "W8XDP",
+      "name": "Octinoxate, TITANIUM DIOXIDE, and ZINC OXIDE",
+      "description": "eget eros elementum pellentesque quisque porta volutpat erat quisque erat",
+      "quantity": 135,
+      "price": "37.25",
+      "supplier_details": "proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "242e0f44-35bc-4b91-82d1-c7021793fb36",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.770Z",
+      "updated_at": "2022-01-19T19:14:31.770Z",
+      "warehouse": "906843b9-1010-4de7-91db-30be7ee4e030",
+      "code": "9PXCB",
+      "name": "Aspirin",
+      "description": "ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer",
+      "quantity": 124,
+      "price": "91.94",
+      "supplier_details": "nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "25cf6598-a83c-49b9-9275-064eb38279b2",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.993Z",
+      "updated_at": "2022-01-19T19:14:31.993Z",
+      "warehouse": "9a386188-4d56-44f7-a627-6e99c8bb8e8f",
+      "code": "YHRVT",
+      "name": "Loratadine",
+      "description": "sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla",
+      "quantity": 58,
+      "price": "86.83",
+      "supplier_details": "vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "28b63603-6a6b-48b0-8fe8-ca7551fefe01",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.490Z",
+      "updated_at": "2022-01-19T19:14:31.490Z",
+      "warehouse": "356f7a0d-9efc-494a-a708-ceeb2b6b66a3",
+      "code": "A4TQT",
+      "name": "Petrolatum",
+      "description": "vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy",
+      "quantity": 122,
+      "price": "93.57",
+      "supplier_details": "volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "28cbda9b-c7ca-44d2-a9ba-32a8c8ab7ca4",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.599Z",
+      "updated_at": "2022-01-19T19:14:31.599Z",
+      "warehouse": "39d9cac9-9f87-4985-9417-5c26ca3d6ae5",
+      "code": "LNLSR",
+      "name": "UREA",
+      "description": "maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at",
+      "quantity": 98,
+      "price": "33.11",
+      "supplier_details": "eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "294ea358-db30-4631-a631-808d409d6baa",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.628Z",
+      "updated_at": "2022-01-19T19:14:31.628Z",
+      "warehouse": "aecc33d4-fe3c-4ee6-8350-888a8b4c308d",
+      "code": "WYKHG",
+      "name": "Veratrum Album, Colchicum Autumnale",
+      "description": "fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend",
+      "quantity": 82,
+      "price": "99.52",
+      "supplier_details": "augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "29e1504a-4612-4913-a2d1-d1ccfddb9ae7",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.913Z",
+      "updated_at": "2022-01-19T19:14:31.913Z",
+      "warehouse": "906843b9-1010-4de7-91db-30be7ee4e030",
+      "code": "LEXNB",
+      "name": "Parathyroid (Bovine), Baryta Carbonica",
+      "description": "est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante",
+      "quantity": 183,
+      "price": "55.14",
+      "supplier_details": "convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "2b01ed7e-eaed-4be1-9fa7-51a89913f966",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.549Z",
+      "updated_at": "2022-01-19T19:14:31.549Z",
+      "warehouse": "73f130e4-8d8e-436f-81f0-787810edb593",
+      "code": "43SFK",
+      "name": "sertraline hydrochloride",
+      "description": "mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit",
+      "quantity": 67,
+      "price": "16.71",
+      "supplier_details": "justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "316465a0-bf1f-4e96-ad55-eeb1b4a5be19",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.530Z",
+      "updated_at": "2022-01-19T19:14:31.530Z",
+      "warehouse": "d135427e-26dc-42b3-9505-c0b310623ab8",
+      "code": "GVY3P",
+      "name": "Ibuprofen",
+      "description": "ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere",
+      "quantity": 146,
+      "price": "47.53",
+      "supplier_details": "eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "321f3a9c-a125-4090-ab7a-2ebe3fc38cd8",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.761Z",
+      "updated_at": "2022-01-19T19:14:31.761Z",
+      "warehouse": "466fcaad-fa1d-4b8c-acc1-6aad3aa8df84",
+      "code": "ZDAJP",
+      "name": "Potassium Chloride and Dextrose Monohydrate",
+      "description": "suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis",
+      "quantity": 113,
+      "price": "63.12",
+      "supplier_details": "ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "334f245f-6e90-48b2-b685-063a04109dc9",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.718Z",
+      "updated_at": "2022-01-19T19:14:31.718Z",
+      "warehouse": "d135427e-26dc-42b3-9505-c0b310623ab8",
+      "code": "LUHNS",
+      "name": "Ramipril",
+      "description": "enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa",
+      "quantity": 48,
+      "price": "25.54",
+      "supplier_details": "et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "33f05693-a541-4a53-a5ae-107227009de0",
+    "fields": {
+      "created_at": "2022-01-19T19:14:32.020Z",
+      "updated_at": "2022-01-19T19:14:32.020Z",
+      "warehouse": "9a386188-4d56-44f7-a627-6e99c8bb8e8f",
+      "code": "CYMHK",
+      "name": "EPINEPHRINE",
+      "description": "eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien",
+      "quantity": 154,
+      "price": "42.30",
+      "supplier_details": "elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "35413662-d5d0-4bf4-bf3f-7327dbeafb7d",
+    "fields": {
+      "created_at": "2022-01-19T19:14:32.025Z",
+      "updated_at": "2022-01-19T19:14:32.025Z",
+      "warehouse": "aecc33d4-fe3c-4ee6-8350-888a8b4c308d",
+      "code": "XMTQ3",
+      "name": "Sage",
+      "description": "eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim",
+      "quantity": 186,
+      "price": "41.39",
+      "supplier_details": "vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "3a5716b0-f24c-4b93-aeee-39f62d6e73bb",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.919Z",
+      "updated_at": "2022-01-19T19:14:31.919Z",
+      "warehouse": "39d9cac9-9f87-4985-9417-5c26ca3d6ae5",
+      "code": "WYVTS",
+      "name": "Amitriptyline Hydrochloride",
+      "description": "egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu",
+      "quantity": 80,
+      "price": "39.73",
+      "supplier_details": "ut nulla sed accumsan felis ut at dolor quis odio consequat varius",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "3e8cb77a-fc15-47d2-a21d-5a30cdf8483b",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.897Z",
+      "updated_at": "2022-01-19T19:14:31.897Z",
+      "warehouse": "73f130e4-8d8e-436f-81f0-787810edb593",
+      "code": "UPUVQ",
+      "name": "OCTOCRYLENE OXYBENZONE ZINC OXIDE",
+      "description": "mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus",
+      "quantity": 65,
+      "price": "71.92",
+      "supplier_details": "posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "43d7e1fd-f164-4e1a-b346-47e662acb9dc",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.981Z",
+      "updated_at": "2022-01-19T19:14:31.981Z",
+      "warehouse": "9a386188-4d56-44f7-a627-6e99c8bb8e8f",
+      "code": "HPDJZ",
+      "name": "Agnus Castus, Ambra Grisea, Conium Maculatum",
+      "description": "ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla",
+      "quantity": 171,
+      "price": "90.46",
+      "supplier_details": "natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "454c62a1-76a3-4743-9fd5-c6f2280db266",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.902Z",
+      "updated_at": "2022-01-19T19:14:31.902Z",
+      "warehouse": "9a386188-4d56-44f7-a627-6e99c8bb8e8f",
+      "code": "TG3JU",
+      "name": "MATRICARIA RECUTITA ATROPA BELLADONNA ROOT TOBACCO LEAF",
+      "description": "lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula",
+      "quantity": 190,
+      "price": "76.38",
+      "supplier_details": "risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "45a66c02-c817-4958-9e6e-55cd4e957b2e",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.929Z",
+      "updated_at": "2022-01-19T19:14:31.929Z",
+      "warehouse": "39d9cac9-9f87-4985-9417-5c26ca3d6ae5",
+      "code": "GEKNW",
+      "name": "OCTINOXATE",
+      "description": "ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit",
+      "quantity": 87,
+      "price": "93.34",
+      "supplier_details": "curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "463a7783-3136-43d5-b5a0-a94d34700997",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.951Z",
+      "updated_at": "2022-01-19T19:14:31.951Z",
+      "warehouse": "79f3bc9d-d3d2-4353-aaf7-18ecb54de243",
+      "code": "67HAM",
+      "name": "Buspirone Hydrochloride",
+      "description": "accumsan odio curabitur convallis duis consequat dui nec nisi volutpat",
+      "quantity": 40,
+      "price": "90.74",
+      "supplier_details": "cursus urna ut tellus nulla ut erat id mauris vulputate elementum",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "4992c1c3-fbb1-417f-b558-494b2bddeda4",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.780Z",
+      "updated_at": "2022-01-19T19:14:31.780Z",
+      "warehouse": "aecc33d4-fe3c-4ee6-8350-888a8b4c308d",
+      "code": "3G2OZ",
+      "name": "Sarcolacticum acidum, Viscum album, Iodium",
+      "description": "sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede",
+      "quantity": 177,
+      "price": "94.40",
+      "supplier_details": "metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "4b35a26d-e898-4854-8372-806ed8b1b015",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.696Z",
+      "updated_at": "2022-01-19T19:14:31.696Z",
+      "warehouse": "aecc33d4-fe3c-4ee6-8350-888a8b4c308d",
+      "code": "RESYS",
+      "name": "OCTINOXATE and TITANIUM DIOXIDE",
+      "description": "potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam",
+      "quantity": 108,
+      "price": "47.38",
+      "supplier_details": "vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "4c79d3e2-28ad-49eb-8829-06c12531de06",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.497Z",
+      "updated_at": "2022-01-19T19:14:31.497Z",
+      "warehouse": "39d9cac9-9f87-4985-9417-5c26ca3d6ae5",
+      "code": "RLA3C",
+      "name": "Naproxen Sodium",
+      "description": "nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis",
+      "quantity": 196,
+      "price": "69.83",
+      "supplier_details": "turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "4c99be59-d288-465f-ae41-21f9e7aec48c",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.612Z",
+      "updated_at": "2022-01-19T19:14:31.612Z",
+      "warehouse": "d135427e-26dc-42b3-9505-c0b310623ab8",
+      "code": "4JUDJ",
+      "name": "DIMETHICONE",
+      "description": "nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel",
+      "quantity": 15,
+      "price": "50.08",
+      "supplier_details": "est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "4d12605d-db04-4c9a-adec-9a9bd19d95cd",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.987Z",
+      "updated_at": "2022-01-19T19:14:31.987Z",
+      "warehouse": "79f3bc9d-d3d2-4353-aaf7-18ecb54de243",
+      "code": "9GA5M",
+      "name": "Olanzapine",
+      "description": "aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet",
+      "quantity": 125,
+      "price": "22.57",
+      "supplier_details": "ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "4d79b3d2-bdd8-4f6d-8fe3-4140a26a9d4d",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.669Z",
+      "updated_at": "2022-01-19T19:14:31.669Z",
+      "warehouse": "39d9cac9-9f87-4985-9417-5c26ca3d6ae5",
+      "code": "SCZTB",
+      "name": "Bismuth subsalicylate",
+      "description": "luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit",
+      "quantity": 24,
+      "price": "22.15",
+      "supplier_details": "quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "5005e6cc-520a-4fd7-b699-bc3489db16a3",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.713Z",
+      "updated_at": "2022-01-19T19:14:31.713Z",
+      "warehouse": "d135427e-26dc-42b3-9505-c0b310623ab8",
+      "code": "YXBYE",
+      "name": "Metoprolol succinate",
+      "description": "primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae",
+      "quantity": 10,
+      "price": "42.30",
+      "supplier_details": "turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "517a16e2-5344-4443-a4a2-c909ab57d91a",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.751Z",
+      "updated_at": "2022-01-19T19:14:31.751Z",
+      "warehouse": "d135427e-26dc-42b3-9505-c0b310623ab8",
+      "code": "YMYA8",
+      "name": "Lidocaine Hydrochloride, Benzalkonium Chloride",
+      "description": "diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non",
+      "quantity": 39,
+      "price": "39.22",
+      "supplier_details": "odio curabitur convallis duis consequat dui nec nisi volutpat eleifend",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "5880ed65-ea91-4d86-8380-ac441829c18d",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.675Z",
+      "updated_at": "2022-01-19T19:14:31.675Z",
+      "warehouse": "466fcaad-fa1d-4b8c-acc1-6aad3aa8df84",
+      "code": "Z8SS8",
+      "name": "ALCOHOL",
+      "description": "risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum",
+      "quantity": 50,
+      "price": "78.12",
+      "supplier_details": "maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "58e3fb78-0805-446f-b905-8bd9dbdff31a",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.576Z",
+      "updated_at": "2022-01-19T19:14:31.576Z",
+      "warehouse": "906843b9-1010-4de7-91db-30be7ee4e030",
+      "code": "6YADG",
+      "name": "Epinephrine",
+      "description": "ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia",
+      "quantity": 173,
+      "price": "63.34",
+      "supplier_details": "a libero nam dui proin leo odio porttitor id consequat in",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "59902bf9-c38d-4d99-9350-869dc6b611f0",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.520Z",
+      "updated_at": "2022-01-19T19:14:31.520Z",
+      "warehouse": "73f130e4-8d8e-436f-81f0-787810edb593",
+      "code": "PZN6D",
+      "name": "AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE",
+      "description": "sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet",
+      "quantity": 28,
+      "price": "56.20",
+      "supplier_details": "justo sollicitudin ut suscipit a feugiat et eros vestibulum ac",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "5ff042f5-31c5-48e5-a23b-2ee7961dc66f",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.945Z",
+      "updated_at": "2022-01-19T19:14:31.945Z",
+      "warehouse": "79f3bc9d-d3d2-4353-aaf7-18ecb54de243",
+      "code": "YHJRH",
+      "name": "Cattle Epithelium",
+      "description": "tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis",
+      "quantity": 196,
+      "price": "74.49",
+      "supplier_details": "aliquam convallis nunc proin at turpis a pede posuere nonummy integer non",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "6476feae-cff2-4f83-b6b7-6d6e08919697",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.555Z",
+      "updated_at": "2022-01-19T19:14:31.556Z",
+      "warehouse": "79f3bc9d-d3d2-4353-aaf7-18ecb54de243",
+      "code": "JPUH2",
+      "name": "Simvastatin",
+      "description": "vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy",
+      "quantity": 10,
+      "price": "58.97",
+      "supplier_details": "odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "68aac22d-2a06-49ae-a554-c3e059e8e930",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.729Z",
+      "updated_at": "2022-01-19T19:14:31.729Z",
+      "warehouse": "79f3bc9d-d3d2-4353-aaf7-18ecb54de243",
+      "code": "TXQWT",
+      "name": "Mosquito",
+      "description": "eros viverra eget congue eget semper rutrum nulla nunc purus phasellus",
+      "quantity": 53,
+      "price": "29.99",
+      "supplier_details": "aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "6a09f5a1-d5a0-46ee-9d1d-e8a9620d55c5",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.880Z",
+      "updated_at": "2022-01-19T19:14:31.880Z",
+      "warehouse": "79f3bc9d-d3d2-4353-aaf7-18ecb54de243",
+      "code": "WZXQJ",
+      "name": "OCTINOXATE, OCTOCRYLENE, and TITANIUM DIOXIDE",
+      "description": "porttitor lacus at turpis donec posuere metus vitae ipsum aliquam",
+      "quantity": 44,
+      "price": "38.00",
+      "supplier_details": "luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "6e936906-64a9-473f-8635-a55882977160",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.746Z",
+      "updated_at": "2022-01-19T19:14:31.746Z",
+      "warehouse": "0d89a629-2968-4964-ba73-5f74662965fb",
+      "code": "WXWR2",
+      "name": "Zolpidem Tartrate",
+      "description": "felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor",
+      "quantity": 183,
+      "price": "67.18",
+      "supplier_details": "sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "6eb35646-1fed-47dd-95cb-65cbc9a4a0f1",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.885Z",
+      "updated_at": "2022-01-19T19:14:31.885Z",
+      "warehouse": "79f3bc9d-d3d2-4353-aaf7-18ecb54de243",
+      "code": "WNLRH",
+      "name": "indomethacin",
+      "description": "orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo",
+      "quantity": 44,
+      "price": "85.76",
+      "supplier_details": "duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "72a34376-0b6a-42fc-b86b-447054d59d4d",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.829Z",
+      "updated_at": "2022-01-19T19:14:31.829Z",
+      "warehouse": "906843b9-1010-4de7-91db-30be7ee4e030",
+      "code": "9JXZ2",
+      "name": "Treatment Set TS349705",
+      "description": "habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate",
+      "quantity": 37,
+      "price": "35.79",
+      "supplier_details": "id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "73accd92-4a37-4ed0-9560-f51ed591134f",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.701Z",
+      "updated_at": "2022-01-19T19:14:31.701Z",
+      "warehouse": "d135427e-26dc-42b3-9505-c0b310623ab8",
+      "code": "YPVIZ",
+      "name": "Mirtazapine",
+      "description": "eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et",
+      "quantity": 137,
+      "price": "55.05",
+      "supplier_details": "nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "786c6bc1-df03-4600-9807-a9e1878f27ef",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.525Z",
+      "updated_at": "2022-01-19T19:14:31.525Z",
+      "warehouse": "d135427e-26dc-42b3-9505-c0b310623ab8",
+      "code": "ZAABU",
+      "name": "milnacipran hydrochloride",
+      "description": "nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit",
+      "quantity": 15,
+      "price": "94.46",
+      "supplier_details": "at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "858f7416-31fc-4a53-a3d1-ec3d1c1c3b76",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.535Z",
+      "updated_at": "2022-01-19T19:14:31.535Z",
+      "warehouse": "aecc33d4-fe3c-4ee6-8350-888a8b4c308d",
+      "code": "9EYXW",
+      "name": "calcium carbonate",
+      "description": "tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor",
+      "quantity": 82,
+      "price": "10.88",
+      "supplier_details": "penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "86ce49d1-0544-469b-8b1a-4dec49201291",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.795Z",
+      "updated_at": "2022-01-19T19:14:31.795Z",
+      "warehouse": "906843b9-1010-4de7-91db-30be7ee4e030",
+      "code": "SCVYR",
+      "name": "Clotrimazole",
+      "description": "aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend",
+      "quantity": 49,
+      "price": "85.77",
+      "supplier_details": "ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "88d3fe45-080a-4367-8c5c-efbd3643f658",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.681Z",
+      "updated_at": "2022-01-19T19:14:31.681Z",
+      "warehouse": "906843b9-1010-4de7-91db-30be7ee4e030",
+      "code": "RQRKG",
+      "name": "Phentermine Hydrochloride",
+      "description": "elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante",
+      "quantity": 42,
+      "price": "83.29",
+      "supplier_details": "aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "8a59ca81-0eb8-4fd1-8eca-e3ccb487e4e4",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.644Z",
+      "updated_at": "2022-01-19T19:14:31.644Z",
+      "warehouse": "9a386188-4d56-44f7-a627-6e99c8bb8e8f",
+      "code": "SYDUJ",
+      "name": "tapentadol hydrochloride",
+      "description": "ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris",
+      "quantity": 136,
+      "price": "52.98",
+      "supplier_details": "etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "8e07f990-fad4-4ad7-bbcc-e87da04bec0e",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.509Z",
+      "updated_at": "2022-01-19T19:14:31.509Z",
+      "warehouse": "aecc33d4-fe3c-4ee6-8350-888a8b4c308d",
+      "code": "EWNCX",
+      "name": "betamethasone dipropionate",
+      "description": "pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus",
+      "quantity": 100,
+      "price": "28.54",
+      "supplier_details": "rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "8ec83bb5-e47e-4fad-8e0d-74bd50366f06",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.590Z",
+      "updated_at": "2022-01-19T19:14:31.590Z",
+      "warehouse": "d135427e-26dc-42b3-9505-c0b310623ab8",
+      "code": "UF5H6",
+      "name": "AVOBENZONE, HOMOSALATE",
+      "description": "faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat",
+      "quantity": 69,
+      "price": "55.23",
+      "supplier_details": "morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "8ef53e65-8819-44f9-a9d6-b928d0452f85",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.775Z",
+      "updated_at": "2022-01-19T19:14:31.775Z",
+      "warehouse": "906843b9-1010-4de7-91db-30be7ee4e030",
+      "code": "VRAJT",
+      "name": "Bahia Grass",
+      "description": "purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac",
+      "quantity": 51,
+      "price": "40.40",
+      "supplier_details": "nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "909f985f-2d1d-4fb7-88e0-a4527a4b12ac",
+    "fields": {
+      "created_at": "2022-01-19T19:14:32.037Z",
+      "updated_at": "2022-01-19T19:14:32.037Z",
+      "warehouse": "0d89a629-2968-4964-ba73-5f74662965fb",
+      "code": "DNB7W",
+      "name": "Benzalkonium Chloride",
+      "description": "quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci",
+      "quantity": 35,
+      "price": "23.25",
+      "supplier_details": "id pretium iaculis diam erat fermentum justo nec condimentum neque sapien",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "913bb179-0d9e-49db-b3c8-963051f32542",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.545Z",
+      "updated_at": "2022-01-19T19:14:31.545Z",
+      "warehouse": "d135427e-26dc-42b3-9505-c0b310623ab8",
+      "code": "9RCRP",
+      "name": "AMOXICILLIN AND CLAVULANATE POTASSIUM",
+      "description": "in quis justo maecenas rhoncus aliquam lacus morbi quis tortor",
+      "quantity": 20,
+      "price": "63.69",
+      "supplier_details": "orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "918b1180-298a-42d2-83ad-89ec0dd80e22",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.787Z",
+      "updated_at": "2022-01-19T19:14:31.787Z",
+      "warehouse": "79f3bc9d-d3d2-4353-aaf7-18ecb54de243",
+      "code": "MPFRS",
+      "name": "Spironolactone",
+      "description": "lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in",
+      "quantity": 36,
+      "price": "23.30",
+      "supplier_details": "nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "9afcc737-96a1-45d0-a4be-ef9afe6834f7",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.723Z",
+      "updated_at": "2022-01-19T19:14:31.724Z",
+      "warehouse": "79f3bc9d-d3d2-4353-aaf7-18ecb54de243",
+      "code": "EHB5U",
+      "name": "Sodium Phosphate",
+      "description": "non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu",
+      "quantity": 130,
+      "price": "98.27",
+      "supplier_details": "et tempus semper est quam pharetra magna ac consequat metus",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "9d2ce639-5f58-47e4-8d99-d1d485584982",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.605Z",
+      "updated_at": "2022-01-19T19:14:31.605Z",
+      "warehouse": "466fcaad-fa1d-4b8c-acc1-6aad3aa8df84",
+      "code": "8PERL",
+      "name": "SALICYLIC ACID",
+      "description": "morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit",
+      "quantity": 131,
+      "price": "34.08",
+      "supplier_details": "vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "9f273052-3094-472f-b460-9931c4fc0204",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.865Z",
+      "updated_at": "2022-01-19T19:14:31.865Z",
+      "warehouse": "79f3bc9d-d3d2-4353-aaf7-18ecb54de243",
+      "code": "YIEE3",
+      "name": "Drospirenone/ethinyl calcium and levomefolate calcium",
+      "description": "iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate",
+      "quantity": 41,
+      "price": "49.57",
+      "supplier_details": "vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "a7ce00e3-f66d-45b0-9cbf-4c8c6a1fd71a",
+    "fields": {
+      "created_at": "2022-01-19T19:14:32.051Z",
+      "updated_at": "2022-01-19T19:14:32.051Z",
+      "warehouse": "466fcaad-fa1d-4b8c-acc1-6aad3aa8df84",
+      "code": "5W6HA",
+      "name": "FEXOFENADINE AND PSEUDOEPHEDRINE",
+      "description": "euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis",
+      "quantity": 11,
+      "price": "35.45",
+      "supplier_details": "nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "a85f8d13-befb-4be0-80f3-209f08827496",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.515Z",
+      "updated_at": "2022-01-19T19:14:31.515Z",
+      "warehouse": "73f130e4-8d8e-436f-81f0-787810edb593",
+      "code": "VXEYV",
+      "name": "Triclosan",
+      "description": "turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet",
+      "quantity": 18,
+      "price": "52.38",
+      "supplier_details": "in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "ab93d23c-0efe-4719-ae3a-bb56d3be2042",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.852Z",
+      "updated_at": "2022-01-19T19:14:31.852Z",
+      "warehouse": "906843b9-1010-4de7-91db-30be7ee4e030",
+      "code": "CX3JX",
+      "name": "Ampicillin",
+      "description": "lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in",
+      "quantity": 89,
+      "price": "66.42",
+      "supplier_details": "porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "ac592c7f-01ee-4837-9abe-98be4807ba62",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.815Z",
+      "updated_at": "2022-01-19T19:14:31.815Z",
+      "warehouse": "466fcaad-fa1d-4b8c-acc1-6aad3aa8df84",
+      "code": "LN9YN",
+      "name": "Homosalate and Octinoxate and Octisalate",
+      "description": "in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec",
+      "quantity": 31,
+      "price": "86.53",
+      "supplier_details": "habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "aec5dcc2-ad95-4d42-a8f9-29769d08ff23",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.735Z",
+      "updated_at": "2022-01-19T19:14:31.735Z",
+      "warehouse": "9a386188-4d56-44f7-a627-6e99c8bb8e8f",
+      "code": "D5RSN",
+      "name": "Glycerin",
+      "description": "id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu",
+      "quantity": 42,
+      "price": "32.11",
+      "supplier_details": "vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "af15916f-abe8-4286-a5c8-3e6bbf0b7520",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.940Z",
+      "updated_at": "2022-01-19T19:14:31.940Z",
+      "warehouse": "aecc33d4-fe3c-4ee6-8350-888a8b4c308d",
+      "code": "Z4ABE",
+      "name": "Lansoprazole",
+      "description": "diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec",
+      "quantity": 195,
+      "price": "13.67",
+      "supplier_details": "nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "b50e127a-e2ab-44c3-86c3-68ed5eee4da1",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.540Z",
+      "updated_at": "2022-01-19T19:14:31.540Z",
+      "warehouse": "d135427e-26dc-42b3-9505-c0b310623ab8",
+      "code": "LL6FV",
+      "name": "Sodium Fluoride",
+      "description": "duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis",
+      "quantity": 196,
+      "price": "73.33",
+      "supplier_details": "blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "beefabcb-c0f9-4048-a542-c7a41ac3c1fa",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.974Z",
+      "updated_at": "2022-01-19T19:14:31.974Z",
+      "warehouse": "d135427e-26dc-42b3-9505-c0b310623ab8",
+      "code": "FQK7D",
+      "name": "ALCOHOL",
+      "description": "turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis",
+      "quantity": 186,
+      "price": "83.91",
+      "supplier_details": "vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "c30a2be9-562c-474a-9c2c-f68cced8d20e",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.581Z",
+      "updated_at": "2022-01-19T19:14:31.581Z",
+      "warehouse": "9a386188-4d56-44f7-a627-6e99c8bb8e8f",
+      "code": "43VKA",
+      "name": "Olanzapine",
+      "description": "tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit",
+      "quantity": 20,
+      "price": "30.82",
+      "supplier_details": "est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "c3253571-db70-4fcc-841b-4ad211bf4cbb",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.707Z",
+      "updated_at": "2022-01-19T19:14:31.707Z",
+      "warehouse": "9a386188-4d56-44f7-a627-6e99c8bb8e8f",
+      "code": "NU4TU",
+      "name": "Octinoxate and Titanium Dioxide",
+      "description": "bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at",
+      "quantity": 160,
+      "price": "28.30",
+      "supplier_details": "venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "c6347991-307c-4207-884f-60a1de11b676",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.934Z",
+      "updated_at": "2022-01-19T19:14:31.934Z",
+      "warehouse": "9a386188-4d56-44f7-a627-6e99c8bb8e8f",
+      "code": "URSCJ",
+      "name": "OCTINOXATE, AVOBENZONE",
+      "description": "leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien",
+      "quantity": 31,
+      "price": "76.04",
+      "supplier_details": "posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "ce4616c6-c888-4928-8b00-40a8658339ac",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.566Z",
+      "updated_at": "2022-01-19T19:14:31.566Z",
+      "warehouse": "906843b9-1010-4de7-91db-30be7ee4e030",
+      "code": "ZDLBB",
+      "name": "Sodium Fluoride",
+      "description": "vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus",
+      "quantity": 46,
+      "price": "26.08",
+      "supplier_details": "at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "d3b5ee42-cd87-49b6-80c2-05921544a977",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.756Z",
+      "updated_at": "2022-01-19T19:14:31.756Z",
+      "warehouse": "39d9cac9-9f87-4985-9417-5c26ca3d6ae5",
+      "code": "UZCKL",
+      "name": "propranolol hydrochloride",
+      "description": "curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin",
+      "quantity": 121,
+      "price": "47.76",
+      "supplier_details": "dapibus duis at velit eu est congue elementum in hac habitasse platea",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "d4df66b2-f949-49e4-8bb2-5b0f42fad8c5",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.740Z",
+      "updated_at": "2022-01-19T19:14:31.740Z",
+      "warehouse": "aecc33d4-fe3c-4ee6-8350-888a8b4c308d",
+      "code": "BPJZF",
+      "name": "Zinc Oxide",
+      "description": "odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in",
+      "quantity": 187,
+      "price": "38.91",
+      "supplier_details": "purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "d71c9c6d-f142-42ae-b002-d815e2462431",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.924Z",
+      "updated_at": "2022-01-19T19:14:31.924Z",
+      "warehouse": "9a386188-4d56-44f7-a627-6e99c8bb8e8f",
+      "code": "57YGB",
+      "name": "Cabbage",
+      "description": "tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet",
+      "quantity": 148,
+      "price": "38.21",
+      "supplier_details": "ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "d805208f-02c5-4a70-b292-77117f76552b",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.651Z",
+      "updated_at": "2022-01-19T19:14:31.651Z",
+      "warehouse": "0d89a629-2968-4964-ba73-5f74662965fb",
+      "code": "HSLYB",
+      "name": "ALCOHOL",
+      "description": "lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in",
+      "quantity": 34,
+      "price": "49.54",
+      "supplier_details": "nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "dcc88097-73ea-4631-bf1c-95a6c2906b5e",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.860Z",
+      "updated_at": "2022-01-19T19:14:31.860Z",
+      "warehouse": "79f3bc9d-d3d2-4353-aaf7-18ecb54de243",
+      "code": "PJRHE",
+      "name": "clonidine",
+      "description": "vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere",
+      "quantity": 65,
+      "price": "48.45",
+      "supplier_details": "amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "de13d655-fd9c-43b3-8501-c62ee7c6c549",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.686Z",
+      "updated_at": "2022-01-19T19:14:31.686Z",
+      "warehouse": "73f130e4-8d8e-436f-81f0-787810edb593",
+      "code": "5QVAD",
+      "name": "Dextromethorphan Hydrobromide / Guaifenesin",
+      "description": "feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse",
+      "quantity": 110,
+      "price": "51.17",
+      "supplier_details": "sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "df7b6e3c-4426-4277-8778-c4f1b2cad6dd",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.822Z",
+      "updated_at": "2022-01-19T19:14:31.822Z",
+      "warehouse": "0d89a629-2968-4964-ba73-5f74662965fb",
+      "code": "78HTY",
+      "name": "Agaricus muscarius, Aloe socotrina, Aurum metallicum",
+      "description": "at nunc commodo placerat praesent blandit nam nulla integer pede justo",
+      "quantity": 10,
+      "price": "66.25",
+      "supplier_details": "duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "e64a452c-ac59-4fd9-afb4-13a9cf0005e8",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.658Z",
+      "updated_at": "2022-01-19T19:14:31.658Z",
+      "warehouse": "aecc33d4-fe3c-4ee6-8350-888a8b4c308d",
+      "code": "MHPKP",
+      "name": "Atorvastatin Calcium",
+      "description": "vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue",
+      "quantity": 105,
+      "price": "39.45",
+      "supplier_details": "pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "ed55ddfc-7857-4cf8-9af7-f9ffe26f7a6f",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.841Z",
+      "updated_at": "2022-01-19T19:14:31.841Z",
+      "warehouse": "9a386188-4d56-44f7-a627-6e99c8bb8e8f",
+      "code": "KQWAP",
+      "name": "Ethambutol Hydrochloride",
+      "description": "sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh",
+      "quantity": 170,
+      "price": "91.96",
+      "supplier_details": "vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "ef586d03-4f7d-4f4b-a7b9-a5176b4d62ce",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.503Z",
+      "updated_at": "2022-01-19T19:14:31.503Z",
+      "warehouse": "466fcaad-fa1d-4b8c-acc1-6aad3aa8df84",
+      "code": "FHVDC",
+      "name": "PredniSONE",
+      "description": "sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet",
+      "quantity": 118,
+      "price": "43.65",
+      "supplier_details": "magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "efdee91a-99b0-4cd0-b177-2ade8375c485",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.691Z",
+      "updated_at": "2022-01-19T19:14:31.691Z",
+      "warehouse": "d135427e-26dc-42b3-9505-c0b310623ab8",
+      "code": "FBUPF",
+      "name": "Octinoxate",
+      "description": "eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur",
+      "quantity": 74,
+      "price": "39.02",
+      "supplier_details": "nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "f5d77b6e-edf3-4b01-92a6-b73ba8740238",
+    "fields": {
+      "created_at": "2022-01-19T19:14:32.042Z",
+      "updated_at": "2022-01-19T19:14:32.042Z",
+      "warehouse": "79f3bc9d-d3d2-4353-aaf7-18ecb54de243",
+      "code": "P84AG",
+      "name": "DIMETHICONE",
+      "description": "suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus",
+      "quantity": 183,
+      "price": "79.81",
+      "supplier_details": "sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "f7d62fee-98f2-45f9-9cef-f9dd585f5fd7",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.835Z",
+      "updated_at": "2022-01-19T19:14:31.835Z",
+      "warehouse": "0d89a629-2968-4964-ba73-5f74662965fb",
+      "code": "GFM3R",
+      "name": "Standardized Grass Pollen, Orchard Grass",
+      "description": "integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero",
+      "quantity": 43,
+      "price": "83.91",
+      "supplier_details": "tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "fb3cd629-1257-4890-b159-445d61b814c9",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.957Z",
+      "updated_at": "2022-01-19T19:14:31.957Z",
+      "warehouse": "356f7a0d-9efc-494a-a708-ceeb2b6b66a3",
+      "code": "QTT3C",
+      "name": "Meadow Fescue Grass, Standardized",
+      "description": "diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum",
+      "quantity": 26,
+      "price": "31.59",
+      "supplier_details": "donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede",
+      "is_available": true
+    }
+  },
+  {
+    "model": "basicinventory.item",
+    "pk": "fbbbf786-9834-4b09-9ab1-afed98372bd6",
+    "fields": {
+      "created_at": "2022-01-19T19:14:31.962Z",
+      "updated_at": "2022-01-19T19:14:31.962Z",
+      "warehouse": "79f3bc9d-d3d2-4353-aaf7-18ecb54de243",
+      "code": "AZS3B",
+      "name": "Brazil Nut",
+      "description": "convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque",
+      "quantity": 43,
+      "price": "20.14",
+      "supplier_details": "sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar",
+      "is_available": true
+    }
+  }
+]

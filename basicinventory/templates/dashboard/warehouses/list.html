@@ -11,7 +11,7 @@
             <th scope="col">Name</th>
             <th scope="col">Capacity</th>
             <th scope="col">Location</th>
-            <th scope="col">Is Operational</th>
+            <th scope="col">Operational</th>
             <th scope="col">Action</th>
         </tr>
     </thead>
@@ -32,7 +32,13 @@
             </th>
             <td>{{ warehouse.capacity }}</td>
             <td>{{ warehouse.location }}</td>
-            <td>{{ warehouse.is_operational }}</td>
+            <td>
+                {% if warehouse.is_operational %}
+                <p>Yes</p>
+                {% else %}
+                <p>No</p>
+                {% endif %}
+            </td>
             <td>
                 <a class="text-decoration-none" href="{% url 'warehouse_edit' warehouse_id=warehouse.id %}">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"

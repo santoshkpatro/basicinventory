@@ -12,7 +12,7 @@
             <th scope="col">Name</th>
             <th scope="col">Quantity</th>
             <th scope="col">Price</th>
-            <th scope="col">Is Available</th>
+            <th scope="col">Availability</th>
             <th scope="col">Warehouse</th>
             <th scope="col">Action</th>
         </tr>
@@ -34,8 +34,14 @@
             </th>
             <td>{{ item.name }}</td>
             <td>{{ item.quantity }}</td>
-            <td>{{ item.price }}</td>
-            <td>{{ item.is_available }}</td>
+            <td>$ {{ item.price }}</td>
+            <td>
+                {% if item.is_available %}
+                <p>Yes</p>
+                {% else %}
+                <p>No</p>
+                {% endif %}
+            </td>
             <td>{{ item.warehouse.name }}</td>
             <td>
                 <a class="text-decoration-none"

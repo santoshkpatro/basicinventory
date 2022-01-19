@@ -28,6 +28,13 @@ source venv/bin/activate
 python3 manage.py migrate
 ```
 
+## Load some initial data (recommended)
+
+```
+python3 manage.py loaddata fixtures/warehouses.json
+python3 manage.py loaddata fixtures/items.json
+```
+
 ## To start the server
 
 ```bash
@@ -39,3 +46,7 @@ python3 manage.py runserver
 ```bash
 python3 manage.py createsuperuser
 ```
+
+## Now local setup is done
+
+Visit [http://127.0.0.1:8000](http://127.0.0.1:8000) or [localhost:8000](localhost:8000)

@@ -1,0 +1,132 @@
+[
+  {
+    "model": "basicinventory.warehouse",
+    "pk": "0d89a629-2968-4964-ba73-5f74662965fb",
+    "fields": {
+      "created_at": "2022-01-19T19:14:05.363Z",
+      "updated_at": "2022-01-19T19:14:05.363Z",
+      "name": "New York",
+      "location": "2 Twin Pines Lane",
+      "capacity": 629,
+      "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",
+      "is_operational": true
+    }
+  },
+  {
+    "model": "basicinventory.warehouse",
+    "pk": "356f7a0d-9efc-494a-a708-ceeb2b6b66a3",
+    "fields": {
+      "created_at": "2022-01-19T19:14:05.388Z",
+      "updated_at": "2022-01-19T19:14:05.388Z",
+      "name": "Connecticut",
+      "location": "85 Norway Maple Road",
+      "capacity": 1996,
+      "description": "Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.",
+      "is_operational": true
+    }
+  },
+  {
+    "model": "basicinventory.warehouse",
+    "pk": "39d9cac9-9f87-4985-9417-5c26ca3d6ae5",
+    "fields": {
+      "created_at": "2022-01-19T19:14:05.348Z",
+      "updated_at": "2022-01-19T19:14:05.348Z",
+      "name": "California",
+      "location": "3408 Lindbergh Park",
+      "capacity": 772,
+      "description": "Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.",
+      "is_operational": true
+    }
+  },
+  {
+    "model": "basicinventory.warehouse",
+    "pk": "466fcaad-fa1d-4b8c-acc1-6aad3aa8df84",
+    "fields": {
+      "created_at": "2022-01-19T19:14:05.383Z",
+      "updated_at": "2022-01-19T19:14:05.383Z",
+      "name": "Torronto",
+      "location": "52647 Havey Junction",
+      "capacity": 1444,
+      "description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.",
+      "is_operational": true
+    }
+  },
+  {
+    "model": "basicinventory.warehouse",
+    "pk": "73f130e4-8d8e-436f-81f0-787810edb593",
+    "fields": {
+      "created_at": "2022-01-19T19:14:05.373Z",
+      "updated_at": "2022-01-19T19:14:05.373Z",
+      "name": "Florida",
+      "location": "20 Dawn Park",
+      "capacity": 355,
+      "description": "Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "is_operational": true
+    }
+  },
+  {
+    "model": "basicinventory.warehouse",
+    "pk": "79f3bc9d-d3d2-4353-aaf7-18ecb54de243",
+    "fields": {
+      "created_at": "2022-01-19T19:14:05.367Z",
+      "updated_at": "2022-01-19T19:14:05.367Z",
+      "name": "Minnesota",
+      "location": "792 Delladonna Road",
+      "capacity": 1380,
+      "description": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",
+      "is_operational": true
+    }
+  },
+  {
+    "model": "basicinventory.warehouse",
+    "pk": "906843b9-1010-4de7-91db-30be7ee4e030",
+    "fields": {
+      "created_at": "2022-01-19T19:14:05.353Z",
+      "updated_at": "2022-01-19T19:14:05.353Z",
+      "name": "Texas",
+      "location": "7761 Melody Junction",
+      "capacity": 1402,
+      "description": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.",
+      "is_operational": true
+    }
+  },
+  {
+    "model": "basicinventory.warehouse",
+    "pk": "9a386188-4d56-44f7-a627-6e99c8bb8e8f",
+    "fields": {
+      "created_at": "2022-01-19T19:14:05.358Z",
+      "updated_at": "2022-01-19T19:14:05.358Z",
+      "name": "Washington",
+      "location": "6107 Merrick Park",
+      "capacity": 1432,
+      "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.",
+      "is_operational": true
+    }
+  },
+  {
+    "model": "basicinventory.warehouse",
+    "pk": "aecc33d4-fe3c-4ee6-8350-888a8b4c308d",
+    "fields": {
+      "created_at": "2022-01-19T19:14:05.378Z",
+      "updated_at": "2022-01-19T19:14:05.378Z",
+      "name": "Samina",
+      "location": "69 Norway Maple Point",
+      "capacity": 913,
+      "description": "Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.",
+      "is_operational": true
+    }
+  },
+  {
+    "model": "basicinventory.warehouse",
+    "pk": "d135427e-26dc-42b3-9505-c0b310623ab8",
+    "fields": {
+      "created_at": "2022-01-19T19:14:05.393Z",
+      "updated_at": "2022-01-19T19:14:05.393Z",
+      "name": "Crayer",
+      "location": "916 Farwell Circle",
+      "capacity": 560,
+      "description": "Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.",
+      "is_operational": true
+    }
+  }
+]
