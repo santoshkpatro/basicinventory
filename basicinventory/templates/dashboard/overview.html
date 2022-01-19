@@ -2,4 +2,74 @@
 
 {% block body %}
 <h2 class="h2 my-4">Overview</h2>
+<div class="row">
+    <div class="col-6">
+        <div class="card me-5 bg-light mb-3">
+            <div class="card-body">
+                <h5>Items</h5>
+                <h5>{{ item_count }}</h5>
+            </div>
+        </div>
+        <div class="card me-5 bg-light mb-3">
+            <div class="card-body">
+                <h5>Warehouses</h5>
+                <h5>{{ warehouse_count }}</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+        <h5>Warehouse wise item distribution</h5>
+        <div class="chart-container" style="position: relative; height:80vh; width:160vw; margin: auto;">
+            <canvas id="chart"></canvas>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block script %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"
+    integrity="sha512-TW5s0IT/IppJtu76UbysrBH9Hy/5X41OTAbQuffZFU6lQ1rdcLHzpU5BzVvr/YFykoiMYZVWlr/PX1mDcfM9Qg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    function randomRGB() {
+        const randomNum = () => Math.floor(Math.random() * (235 - 52 + 1) + 52);
+
+        return `rgb(${randomNum()}, ${randomNum()}, ${randomNum()})`
+    }
+
+    fetch('/dashboard/analytics/')
+        .then(response => response.json())
+        .then(data => {
+            // console.log(data)
+            // console.log(randomRGB());
+
+            const labelSet = data.labels
+            const dataSet = data.data
+
+            const graphData = {
+                labels: labelSet,
+                datasets: [{
+                    label: 'My First Dataset',
+                    data: dataSet,
+                    backgroundColor: labelSet.map(() => randomRGB()),
+                    hoverOffset: 20
+                }]
+            };
+
+            const config = {
+                type: 'doughnut',
+                data: graphData,
+                options: {
+                    'responsive': false
+                }
+            };
+
+            const myChart = new Chart(
+                document.getElementById('chart'),
+                config
+            );
+        })
+</script>
 {% endblock %}

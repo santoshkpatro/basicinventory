@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path
 from basicinventory.views.home import index
-from basicinventory.views.dashboard.index import overview
+from basicinventory.views.dashboard.index import overview, analytics
 from basicinventory.views.dashboard.items import item_delete, item_list, item_detail, item_edit, item_add
 from basicinventory.views.dashboard.warehouses import warehouse_list, warehouse_add, warehouse_delete, warehouse_edit, warehouse_detail
 from basicinventory.views.auth import login_view, logout_view
@@ -12,6 +12,7 @@ urlpatterns = [
     path('auth/login/', login_view, name='login'),
     path('auth/logout/', logout_view, name='logout'),
     path('dashboard/', overview, name='overview'),
+    path('dashboard/analytics/', analytics, name='analytics'),
     path('dashboard/items/', item_list, name='item_list'),
     path('dashboard/items/add/', item_add, name='item_add'),
     path('dashboard/items/<uuid:item_id>/', item_detail, name='item_detail'),
