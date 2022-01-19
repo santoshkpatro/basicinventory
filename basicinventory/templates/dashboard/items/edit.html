@@ -29,16 +29,16 @@
                 {% endfor %}
             </select>
             <div class="form-group">
-                <label class="form-label">Item code</label>
-                <input type="text" name="code" value="{{ item.code }}" class="form-control">
+                <label class="form-label">Item code *</label>
+                <input type="text" name="code" required value="{{ item.code }}" class="form-control">
             </div>
             <div class="form-group">
-                <label class="form-label">Name</label>
-                <input type="text" name="name" value="{{ item.name }}" class="form-control">
+                <label class="form-label">Name *</label>
+                <input type="text" name="name" required value="{{ item.name }}" class="form-control">
             </div>
             <div class="form-group">
-                <label class="form-label">Quantity</label>
-                <input type="number" name="quantity" value="{{ item.quantity }}" class="form-control">
+                <label class="form-label">Quantity *</label>
+                <input type="number" name="quantity" required value="{{ item.quantity }}" class="form-control">
             </div>
             <div class="form-group">
                 <label class="form-label">Price</label>
@@ -48,18 +48,18 @@
         <div class="col-6">
             <div class="form-group">
                 <label class="form-label">Description</label>
-                <textarea name="description" id="description" value="{{ item.description }}" cols="30" rows="5"
-                    class="form-control"></textarea>
+                <textarea name="description" id="description" cols="30" rows="5"
+                    class="form-control">{{ item.description }}</textarea>
             </div>
             <div class="form-group">
                 <label class="form-label">Supplier Details</label>
-                <textarea name="supplier_details" id="supplier_details" value="{{ item.supplier_details }}" cols="30"
-                    rows="5" class="form-control"></textarea>
+                <textarea name="supplier_details" id="supplier_details" cols="30" rows="5"
+                    class="form-control">{{ item.supplier_details }}</textarea>
             </div>
         </div>
     </div>
     <div class="d-grid gap-2 my-2">
-        <button class="btn btn-secondary" type="submit">Update</button>
+        <button class="btn btn-primary" type="submit">Update</button>
     </div>
 </form>
 {% endblock %}

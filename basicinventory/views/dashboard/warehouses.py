@@ -1,4 +1,5 @@
 from django.shortcuts import redirect, render
+from django.contrib import messages
 from basicinventory.models.warehouse import Warehouse
 from basicinventory.forms.warehouse import WarehouseForm
 
@@ -51,7 +52,8 @@ def warehouse_edit(request, warehouse_id):
                 form.save()
                 return redirect('warehouse_list')
             else:
-                print('Invalid form')
+                messages.error(
+                    request, 'Something went wrong while submitting the form')
                 return redirect('warehouse_edit', warehouse_id=warehouse_id)
 
         context = {
