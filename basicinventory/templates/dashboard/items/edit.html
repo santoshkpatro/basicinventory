@@ -4,43 +4,59 @@
 <h2 class="h2 my-4">Edit item</h2>
 <form action="{% url 'item_edit' item_id=item.id %}?redirect_url={{ redirect_url }}" method="post">
     {% csrf_token %}
-    <label for="" class="form-label">Select warehouse</label>
-    <select class="form-select" aria-label="select warehouse" name="warehouse_id">
-        <option value="">No warehouse</option>
-        {% for warehouse in warehouses %}
-        {% if warehouse.id == item.warehouse.id %}
-        <option value="{{ warehouse.id }}" selected>{{ warehouse.name }}
-            {% else %}
-        <option value="{{ warehouse.id }}">{{ warehouse.name }}
-            {% endif %}
-        </option>
-        {% endfor %}
-    </select>
-    <div class="form-group">
-        <label class="form-label">Item code</label>
-        <input type="text" name="code" value="{{ item.code }}" class="form-control">
+    <div class="form-check">
+        {% if item.is_available %}
+        <input class="form-check-input" type="checkbox" name="is_available" id="flexCheckChecked" checked>
+        {% else %}
+        <input class="form-check-input" type="checkbox" name="is_available" id="flexCheckChecked">
+        {% endif %}
+        <label class="form-check-label" for="flexCheckChecked">
+            Available ?
+        </label>
     </div>
-    <div class="form-group">
-        <label class="form-label">Name</label>
-        <input type="text" name="name" value="{{ item.name }}" class="form-control">
-    </div>
-    <div class="form-group">
-        <label class="form-label">Quantity</label>
-        <input type="number" name="quantity" value="{{ item.quantity }}" class="form-control">
-    </div>
-    <div class="form-group">
-        <label class="form-label">Price</label>
-        <input type="number" name="price" value="{{ item.price }}" class="form-control">
-    </div>
-    <div class="form-group">
-        <label class="form-label">Description</label>
-        <textarea name="description" id="description" value="{{ item.description }}" cols="30" rows="5"
-            class="form-control"></textarea>
-    </div>
-    <div class="form-group">
-        <label class="form-label">Supplier Details</label>
-        <textarea name="supplier_details" id="supplier_details" value="{{ item.supplier_details }}" cols="30" rows="5"
-            class="form-control"></textarea>
+    <div class="row">
+        <div class="col-6">
+            <label for="" class="form-label">Select warehouse</label>
+            <select class="form-select" aria-label="select warehouse" name="warehouse_id">
+                <option value="">No warehouse</option>
+                {% for warehouse in warehouses %}
+                {% if warehouse.id == item.warehouse.id %}
+                <option value="{{ warehouse.id }}" selected>{{ warehouse.name }}
+                    {% else %}
+                <option value="{{ warehouse.id }}">{{ warehouse.name }}
+                    {% endif %}
+                </option>
+                {% endfor %}
+            </select>
+            <div class="form-group">
+                <label class="form-label">Item code</label>
+                <input type="text" name="code" value="{{ item.code }}" class="form-control">
+            </div>
+            <div class="form-group">
+                <label class="form-label">Name</label>
+                <input type="text" name="name" value="{{ item.name }}" class="form-control">
+            </div>
+            <div class="form-group">
+                <label class="form-label">Quantity</label>
+                <input type="number" name="quantity" value="{{ item.quantity }}" class="form-control">
+            </div>
+            <div class="form-group">
+                <label class="form-label">Price</label>
+                <input type="number" name="price" value="{{ item.price }}" class="form-control">
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="form-group">
+                <label class="form-label">Description</label>
+                <textarea name="description" id="description" value="{{ item.description }}" cols="30" rows="5"
+                    class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Supplier Details</label>
+                <textarea name="supplier_details" id="supplier_details" value="{{ item.supplier_details }}" cols="30"
+                    rows="5" class="form-control"></textarea>
+            </div>
+        </div>
     </div>
     <div class="d-grid gap-2 my-2">
         <button class="btn btn-secondary" type="submit">Update</button>

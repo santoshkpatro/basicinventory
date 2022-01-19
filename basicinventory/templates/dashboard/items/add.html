@@ -4,37 +4,51 @@
 <h2 class="h2 my-4">Add Item</h2>
 <form action="{% url 'item_add' %}" method="post">
     {% csrf_token %}
-    <label for="" class="form-label">Select warehouse</label>
-    <select class="form-select" aria-label="select warehouse" name="warehouse_id">
-        <option value="">No warehouse</option>
-        {% for warehouse in warehouses %}
-        <option value="{{ warehouse.id }}">{{ warehouse.name }}</option>
-        {% endfor %}
-    </select>
-    <div class="form-group">
-        <label class="form-label">Item code</label>
-        <input type="text" name="code" class="form-control">
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="is_available" id="flexCheckChecked" checked>
+        <label class="form-check-label" for="flexCheckChecked">
+            Available ?
+        </label>
     </div>
-    <div class="form-group">
-        <label class="form-label">Name</label>
-        <input type="text" name="name" class="form-control">
+    <div class="row">
+        <div class="col-6">
+            <label for="" class="form-label">Select warehouse</label>
+            <select class="form-select" aria-label="select warehouse" name="warehouse_id">
+                <option value="">No warehouse</option>
+                {% for warehouse in warehouses %}
+                <option value="{{ warehouse.id }}">{{ warehouse.name }}</option>
+                {% endfor %}
+            </select>
+            <div class="form-group">
+                <label class="form-label">Item code</label>
+                <input type="text" name="code" class="form-control">
+            </div>
+            <div class="form-group">
+                <label class="form-label">Name</label>
+                <input type="text" name="name" class="form-control">
+            </div>
+            <div class="form-group">
+                <label class="form-label">Quantity</label>
+                <input type="number" name="quantity" class="form-control">
+            </div>
+            <div class="form-group">
+                <label class="form-label">Price</label>
+                <input type="number" name="price" class="form-control">
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="form-group">
+                <label class="form-label">Description</label>
+                <textarea name="description" id="description" cols="30" rows="5" class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Supplier Details</label>
+                <textarea name="supplier_details" id="supplier_details" cols="30" rows="5"
+                    class="form-control"></textarea>
+            </div>
+        </div>
     </div>
-    <div class="form-group">
-        <label class="form-label">Quantity</label>
-        <input type="number" name="quantity" class="form-control">
-    </div>
-    <div class="form-group">
-        <label class="form-label">Price</label>
-        <input type="number" name="price" class="form-control">
-    </div>
-    <div class="form-group">
-        <label class="form-label">Description</label>
-        <textarea name="description" id="description" cols="30" rows="5" class="form-control"></textarea>
-    </div>
-    <div class="form-group">
-        <label class="form-label">Supplier Details</label>
-        <textarea name="supplier_details" id="supplier_details" cols="30" rows="5" class="form-control"></textarea>
-    </div>
+
     <div class="d-grid gap-2 my-2">
         <button class="btn btn-secondary" type="submit">Add</button>
     </div>
