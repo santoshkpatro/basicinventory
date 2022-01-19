@@ -1,7 +1,7 @@
 {% extends 'dashboard.html' %}
 
 {% block body %}
-<h3>Edit Item</h3>
+<h2 class="h2 my-4">Edit item</h2>
 <form action="{% url 'item_edit' item_id=item.id %}?redirect_url={{ redirect_url }}" method="post">
     {% csrf_token %}
     <label for="" class="form-label">Select warehouse</label>

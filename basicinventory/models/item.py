@@ -1,3 +1,4 @@
+from enum import unique
 from django.db import models
 from basicinventory.models.base import BaseModel
 from basicinventory.models.warehouse import Warehouse
@@ -11,7 +12,7 @@ class Item(BaseModel):
         blank=True,
         related_name='items'
     )
-    code = models.CharField(max_length=10, unique=True)
+    code = models.CharField(max_length=10)
     name = models.CharField(max_length=200)
     description = models.TextField(blank=True, null=True)
     quantity = models.PositiveIntegerField()
@@ -26,6 +27,7 @@ class Item(BaseModel):
 
     class Meta:
         db_table = 'items'
+        unique_together = ['warehouse', 'code']
 
     def __str__(self) -> str:
         return self.name

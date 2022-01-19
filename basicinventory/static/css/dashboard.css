@@ -1,6 +1,7 @@
 html,
 body {
   overflow-x: hidden;
+  font-family: "Nunito Sans", sans-serif;
   /* Prevent scroll on narrow devices */
 }
 
@@ -63,4 +64,8 @@ body {
 
 .bg-purple {
   background-color: #6f42c1;
+}
+
+.url_active {
+  font-weight: bold;
 }

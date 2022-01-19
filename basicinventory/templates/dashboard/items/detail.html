@@ -1,5 +1,13 @@
 {% extends 'dashboard.html' %}
 
 {% block body %}
-<h3>{{ item.name }}</h3>
+<h3 class="my-3 h2">{{ item.name }}</h3>
+<ul class="list-group">
+    <li class="list-group-item">Item code - {{ item.code }} </li>
+    <li class="list-group-item">Is Available - {{ item.is_avaliable }} </li>
+    <li class="list-group-item">Quantity - {{ item.quantity }} </li>
+    <li class="list-group-item">Price - {{ item.price }} </li>
+    <li class="list-group-item">Supplier - {{ item.supplier_details }}</li>
+    <li class="list-group-item">Description - {{ item.description }} </li>
+</ul>
 {% endblock %}

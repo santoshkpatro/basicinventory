@@ -3,6 +3,7 @@ from django.shortcuts import render, redirect
 from django.urls import reverse
 from django.core.paginator import Paginator
 from django.conf import settings
+from django.contrib import messages
 from basicinventory.models.item import Item
 from basicinventory.models.warehouse import Warehouse
 from basicinventory.forms.item import ItemForm
@@ -24,6 +25,7 @@ def item_add(request):
             item = Item(**data, warehouse=warehouse)
             item.save()
 
+            messages.success(request, 'Item added successfully')
             return redirect('item_list')
         else:
             print(form.errors)
