@@ -112,3 +112,17 @@ def item_edit(request, item_id):
         return render(request, 'dashboard/items/edit.html', context)
     except Item.DoesNotExist:
         return redirect('item_list')
+
+
+def item_delete(request, item_id):
+    try:
+        item = Item.objects.get(pk=item_id)
+        item.delete()
+        redirect_url = request.GET.get('redirect_url', None)
+
+        if redirect_url:
+            return redirect(redirect_url)
+        else:
+            return redirect('item_list')
+    except:
+        return redirect('item_list')
